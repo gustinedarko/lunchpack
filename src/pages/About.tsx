@@ -12,13 +12,13 @@ const About = () => {
               Our Story
             </span>
             <h1 className="font-heading text-4xl md:text-5xl font-extrabold leading-tight">
-              About LunchBox Ghana
+              About LunchPack
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              LunchBox Ghana was born from a simple frustration — finding a healthy, affordable lunch during a busy workday in Accra was nearly impossible. We decided to fix that.
+              LunchPack was created to simplify healthy eating for busy professionals. We understand that demanding schedules often lead to skipped meals or unhealthy choices — so we made the healthy choice the easy one.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              We started as a small kitchen delivering meals to a handful of offices. Today, we serve hundreds of professionals across Accra with fresh, nutritious meals every day. Our team of passionate cooks and dedicated riders work together to make sure you never have to compromise between convenience and eating well.
+              By delivering freshly prepared, thoughtfully packed meals directly to workplaces, LunchPack helps people stay energized, productive, and focused throughout their day. Every pack reflects our commitment to consistency, reliability, and customer care — from our kitchen to your desk.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl">
@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <h2 className="font-heading text-2xl font-bold">Our Mission</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To help busy professionals eat healthy without stress. We believe everyone deserves access to fresh, balanced meals — no matter how hectic their schedule.
+              To help busy professionals eat healthy without the stress of planning, preparing, or searching for meals. We make healthy eating effortless through fresh, thoughtfully packed meals delivered with convenience, consistency, and care.
             </p>
           </div>
           <div className="space-y-4">
@@ -44,7 +44,7 @@ const About = () => {
             </div>
             <h2 className="font-heading text-2xl font-bold">Our Vision</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To become the most trusted meal delivery service for professionals in Ghana, expanding to every major city and making healthy eating the easiest choice.
+              To become the most trusted healthy meal delivery brand for busy professionals, making fresh, thoughtfully packed meals the easiest choice wherever work takes people.
             </p>
           </div>
         </div>
