@@ -19,9 +19,9 @@ const steps = [
 ];
 
 const testimonials = [
-  { name: "Akua M.", role: "Marketing Manager", text: "LunchBox Ghana has completely changed my lunch routine. The food is always fresh and delicious. I no longer stress about what to eat!" },
-  { name: "Kwame D.", role: "Software Engineer", text: "Best meal delivery service in Accra. The portions are generous and the delivery is always on time. Highly recommend!" },
-  { name: "Ama S.", role: "HR Director", text: "We order for our entire office every week. The team loves the variety and everyone looks forward to lunch now." },
+  { name: "Akua M.", role: "Marketing Manager", text: "LunchPack has completely changed my workday. The meals arrive fresh, thoughtfully packed, and always on time. Lunch is one less thing to think about." },
+  { name: "Kwame D.", role: "Software Engineer", text: "Reliable, healthy, and consistently good. The portions keep me focused through the afternoon — genuinely packed for productivity." },
+  { name: "Ama S.", role: "HR Director", text: "We order for the whole team every week. The variety and consistency are unmatched, and everyone looks forward to lunch now." },
 ];
 
 const Index = () => {
@@ -32,26 +32,26 @@ const Index = () => {
         <div className="container-narrow section-padding grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <span className="inline-block bg-primary/10 text-primary text-sm font-semibold px-4 py-1.5 rounded-full">
-              🇬🇭 Made in Ghana
+              Packed for Productivity
             </span>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-foreground">
-              Healthy Lunch Delivered to Your Office
+              Fresh Meals. Thoughtfully Packed.
             </h1>
             <p className="text-muted-foreground text-lg max-w-md leading-relaxed">
-              Fresh and nutritious meals for busy professionals who want convenience and better eating habits.
+              Freshly packed, healthy meals delivered to busy professionals — so you can stay focused, energized, and productive all day.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" asChild>
-                <Link to="/order">Order Your Lunch <ArrowRight className="ml-2" size={18} /></Link>
+                <Link to="/order">Order Your Pack <ArrowRight className="ml-2" size={18} /></Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <Link to="/menu">View Menu</Link>
+                <Link to="/menu">Explore Meal Packs</Link>
               </Button>
             </div>
           </div>
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img src={heroFood} alt="Healthy lunch bowl with grilled chicken, quinoa, and fresh vegetables" width={1920} height={1080} className="w-full h-auto object-cover" />
+              <img src={heroFood} alt="Freshly packed LunchPack meal with grilled chicken, quinoa, and fresh vegetables" width={1920} height={1080} className="w-full h-auto object-cover" />
             </div>
           </div>
         </div>
@@ -61,10 +61,10 @@ const Index = () => {
       <section className="bg-secondary">
         <div className="container-narrow section-padding text-center max-w-3xl mx-auto">
           <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
-            Finding Healthy Lunch Shouldn't Be This Hard
+            Eating Well Shouldn't Interrupt Your Day
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Most professionals in Accra spend their lunch breaks searching for decent food, settling for junk, or skipping meals entirely. Between busy schedules and limited healthy options nearby, eating well during work hours feels impossible.
+            Busy professionals lose valuable focus hunting down decent food, settling for something quick, or skipping meals entirely. Between demanding schedules and limited healthy options, eating well during work hours feels harder than it should.
           </p>
         </div>
       </section>
@@ -75,10 +75,10 @@ const Index = () => {
           The Solution
         </span>
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
-          Meet LunchBox Ghana
+          Meet LunchPack
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-          We prepare fresh, balanced meals every morning and deliver them straight to your office. No stress, no waiting, no junk food — just real food that fuels your day.
+          We freshly prepare and thoughtfully pack balanced meals every morning, then deliver them straight to your workplace. No stress, no waiting — just real food, packed for productivity.
         </p>
       </section>
 
@@ -147,13 +147,13 @@ const Index = () => {
       <section className="bg-primary">
         <div className="container-narrow section-padding text-center space-y-6">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground">
-            Ready for a Better Lunch?
+            Pack Your Day Right
           </h2>
           <p className="text-primary-foreground/80 text-lg max-w-lg mx-auto">
-            Join hundreds of professionals in Accra who have already switched to LunchBox Ghana.
+            Join the professionals who've made freshly packed meals part of their most productive days.
           </p>
           <Button size="lg" variant="secondary" asChild>
-            <Link to="/order">Place Your Order <ArrowRight className="ml-2" size={18} /></Link>
+            <Link to="/order">Order Your Pack <ArrowRight className="ml-2" size={18} /></Link>
           </Button>
         </div>
       </section>

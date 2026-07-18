@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b">
       <div className="container-narrow flex items-center justify-between h-16 px-4 md:px-8 lg:px-16">
         <Link to="/" className="font-heading text-xl font-bold text-primary">
-          🍱 LunchBox Ghana
+          🍱 LunchPack
         </Link>
 
         {/* Desktop */}
@@ -36,7 +36,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild>
-            <Link to="/order">Order Now</Link>
+            <Link to="/order">Order Your Pack</Link>
           </Button>
         </div>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="w-full mt-2">
-            <Link to="/order" onClick={() => setMobileOpen(false)}>Order Now</Link>
+            <Link to="/order" onClick={() => setMobileOpen(false)}>Order Your Pack</Link>
           </Button>
         </div>
       )}

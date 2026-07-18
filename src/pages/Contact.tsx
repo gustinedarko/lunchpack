@@ -82,7 +82,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium text-sm">Email</p>
-                  <p className="text-muted-foreground text-sm">hello@lunchboxghana.com</p>
+                  <p className="text-muted-foreground text-sm">hello@lunchpack.app</p>
                 </div>
               </div>
             </div>

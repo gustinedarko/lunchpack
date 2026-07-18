@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container-narrow section-padding">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">🍱 LunchBox Ghana</h3>
+            <h3 className="font-heading text-lg font-bold mb-4">🍱 LunchPack</h3>
             <p className="text-background/70 text-sm leading-relaxed">
-              Healthy lunch delivery for busy professionals in Accra. Fresh, nutritious, and delivered right to your office.
+              Freshly packed, healthy meals for busy professionals. Packed for productivity — delivered right to your office.
             </p>
           </div>
           <div>
@@ -45,13 +45,13 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>hello@lunchboxghana.com</span>
+                <span>hello@lunchpack.app</span>
               </div>
             </div>
           </div>
         </div>
         <div className="border-t border-background/20 mt-12 pt-8 text-center text-sm text-background/50">
-          © {new Date().getFullYear()} LunchBox Ghana. All rights reserved.
+          © {new Date().getFullYear()} LunchPack. All rights reserved.
         </div>
       </div>
     </footer>
