@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail } from "lucide-react";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 const Footer = () => {
   return (
@@ -7,7 +8,13 @@ const Footer = () => {
       <div className="container-narrow section-padding">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-lg font-bold mb-4">🍱 LunchPack</h3>
+            <Link to="/" className="inline-block mb-4">
+              <img
+                src={logoAsset.url}
+                alt="LunchPack"
+                className="h-8 w-auto"
+              />
+            </Link>
             <p className="text-background/70 text-sm leading-relaxed">
               Freshly packed, healthy meals for busy professionals. Packed for productivity — delivered right to your office.
             </p>
