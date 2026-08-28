@@ -23,7 +23,7 @@ const Navbar = () => {
           <img
             src={logoAsset.url}
             alt="LunchPack"
-            className="h-8 w-auto"
+            className="h-9 w-auto"
           />
         </Link>
 
