@@ -58,7 +58,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-background/20 mt-12 pt-8 text-center text-sm text-background/50">
-          © {new Date().getFullYear()} LunchPack. All rights reserved.
+          © {new Date().getFullYear()} LunchPack. All rights reserved. · Designed & developed by{" "}
+          <a
+            href="https://thedarkostudio.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-background transition-colors"
+          >
+            Darko Studio
+          </a>
         </div>
       </div>
     </footer>
