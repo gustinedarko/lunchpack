@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="container-narrow flex items-center justify-between h-16 px-4 md:px-8 lg:px-16">
         <Link to="/" className="flex items-center">
           <img
-            src={logoAsset.url}
+            src={logoAsset}
             alt="LunchPack"
             className="h-9 w-auto"
           />
