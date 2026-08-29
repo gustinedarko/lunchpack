@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import menuJollof from "@/assets/menu-jollof.jpg";
-import menuSalad from "@/assets/menu-salad.jpg";
-import menuGrain from "@/assets/menu-grain-bowl.jpg";
-import menuWrap from "@/assets/menu-wrap.jpg";
-import menuSmoothie from "@/assets/menu-smoothie.jpg";
-import menuStew from "@/assets/menu-stew.jpg";
+import menuWaakye from "@/assets/menu-waakye.jpg";
+import menuFriedRice from "@/assets/menu-fried-rice.jpg";
+import menuBanku from "@/assets/menu-banku.jpg";
+import menuYamChips from "@/assets/menu-fried-yam.jpg";
+import menuRice from "@/assets/menu-rice.jpg";
 
 const meals = [
-  { name: "Jollof Rice & Grilled Fish", desc: "Smoky jollof rice with grilled tilapia, plantain, and fresh vegetables.", price: "GH₵ 35", img: menuJollof },
-  { name: "Grilled Chicken Salad", desc: "Mixed greens with grilled chicken breast, cucumber, tomatoes, and light vinaigrette.", price: "GH₵ 30", img: menuSalad },
-  { name: "Power Grain Bowl", desc: "Brown rice, roasted chickpeas, fresh vegetables, and creamy tahini dressing.", price: "GH₵ 28", img: menuGrain },
-  { name: "Chicken Wrap", desc: "Whole wheat wrap filled with grilled chicken, lettuce, peppers, and house sauce.", price: "GH₵ 25", img: menuWrap },
-  { name: "Berry Smoothie Bowl", desc: "Blended berries, granola, fresh fruit, and a drizzle of honey.", price: "GH₵ 22", img: menuSmoothie },
-  { name: "Garden Stew & Rice", desc: "Hearty vegetable stew with lean protein served over fluffy steamed rice.", price: "GH₵ 32", img: menuStew },
+  { name: "Jollof Rice & Grilled Chicken", desc: "Smoky jollof rice served with grilled chicken, fried plantain, and fresh vegetables.", price: "GH₵ 45", img: menuJollof },
+  { name: "Waakye & Fish", desc: "Ghanaian waakye served with fish, tender beef, gari, boiled egg, and a tasty shito sauce.", price: "GH₵ 40", img: menuWaakye },
+  { name: "Fried Rice & Chicken", desc: "Flavorful fried rice with seasoned grilled chicken, mixed vegetables, and a side of fresh salad.", price: "GH₵ 38", img: menuFriedRice },
+  { name: "Banku & Grilled Tilapia", desc: "Soft banku served with grilled tilapia, fresh pepper sauce, and sliced onions.", price: "GH₵ 35", img: menuBanku },
+  { name: "Chicken & Yam Chips", desc: "Crispy yam chips served with seasoned grilled chicken and a fresh house pepper sauce.", price: "GH₵ 42", img: menuYamChips },
+  { name: "Plain Rice & Garden Egg Stew", desc: "Fluffy steamed rice served with rich garden egg stew and tender pieces of protein.", price: "GH₵ 40", img: menuRice },
 ];
 
 const MenuPage = () => {

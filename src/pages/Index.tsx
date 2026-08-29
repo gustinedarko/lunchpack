@@ -38,7 +38,7 @@ const Index = () => {
               Fresh Meals. Thoughtfully Packed.
             </h1>
             <p className="text-muted-foreground text-lg max-w-md leading-relaxed">
-              Freshly packed, healthy meals delivered to busy professionals — so you can stay focused, energized, and productive all day.
+              Freshly packed, healthy meals delivered to busy professionals so you can stay focused, energized, and productive all day.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" asChild>
